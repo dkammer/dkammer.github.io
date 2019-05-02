@@ -1,1 +1,53 @@
-theme: jekyll-theme-slate
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Prof. Dr.-Ing. Dietrich Kammer
+email: kammer@htw-dresden.de
+description: >- # this means to ignore newlines until "baseurl:"
+  Dietrich Kammer is a professor for Visual Engineering 
+  (Technische Visualistik) at the University for Applied 
+  Sciences in Dresden (Hochschule für Technik und 
+  Wirtschaft Dresden). His teaching and research is 
+  focused on visualization and interaction techniques and 
+  technologies. During his PhD he developed a formalization 
+  for multitouch-gestures based on a semiotic analysis 
+  framework. Current research is focused on multidimensional 
+  visualization methods in the domain of machine learning 
+  and interaction techniques for novel, elastic displays.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  dkammer
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+collections:
+  - publications
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
