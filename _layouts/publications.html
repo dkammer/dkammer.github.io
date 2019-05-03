@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article>
+
+  <h3 class="publications-title">{{ page.title | escape }}</h1>
+
+  {%- for publ in site.publications -%}
+  <p class="noindent spacing">
+    {{ publ.content }}
+  </p>
+  {%- endfor -%}
+
+</article>

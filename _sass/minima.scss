@@ -13,7 +13,7 @@ $spacing-unit:     30px !default;
 $text-color:       #111 !default;
 $background-back:  #eee !default;
 $background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$brand-color:      #28AECE !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -48,5 +48,6 @@ $on-laptop:        800px !default;
 @import
   "minima/base",
   "minima/layout",
-  "minima/syntax-highlighting"
+  "minima/syntax-highlighting",
+  "minima/fontawesome"
 ;

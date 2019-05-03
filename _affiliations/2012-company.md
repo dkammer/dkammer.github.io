@@ -1,5 +1,5 @@
 ---
 title: Gesellschaft für Technische Visualistik mbH
-url: https://visualistik.de
+link: https://visualistik.de
+description: the company I co-founded in 2012 and worked for as Project Manager and Chief Technical Officer (CTO) until 2019.
 ---
-the company I co-founded in 2012 and worked for as Project Manager and Chief Technical Officer (CTO) until 2019.

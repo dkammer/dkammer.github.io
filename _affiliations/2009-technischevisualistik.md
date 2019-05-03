@@ -1,5 +1,5 @@
 ---
 title: Labornetzwerk Technische Visualistik
-url: http://technische-visualistik.de
+link: http://technische-visualistik.de
+description: local network of companies and research institutions in Saxony.
 ---
-local network of companies and research institutions in Saxony.

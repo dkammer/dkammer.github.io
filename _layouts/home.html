@@ -9,14 +9,33 @@ layout: default
 
   {{ content }}
 
-  <p>{{- site.description | escape -}}</p>
+  <p class="noindent">{{- site.description | escape -}}</p>
 
+  <p class="center spacing">***</p>
+
+  {%- for affil in site.affiliations -%}
+
+    <p class="noindent spacing">
+      {%- if affil.link -%}
+      <span class="uppercase"><a href="{{ affil.link }}">{{ affil.title | escape }}</a>&nbsp;</span>
+      {%- else -%}
+      <span class="uppercase">{{ affil.title | escape }}&nbsp;</span>
+      {%- endif -%}
+       &mdash; {{ affil.description }}
+    </p>
+  {%- endfor -%}
+  
   {%- if site.posts.size > 0 -%}
     <ul class="post-list">
       {%- for post in site.posts -%}
-      <p class="center">***</p>
-      <p>
-        <span class="uppercase">{{ post.title | escape }}</span> &mdash; {{ post.description }}
+      <p class="center spacing">***</p>
+      <p class="noindent">
+        {%- if post.link -%}
+        <span class="uppercase"><a href="{{site.baseurl}}/{{ post.link }}">{{ post.title | escape }}</a>&nbsp;</span>
+        {%- else -%}
+        <span class="uppercase">{{ post.title | escape }}&nbsp;</span>
+        {%- endif -%}
+         &mdash; {{ post.description }}
       </p>
       {%- endfor -%}
     </ul>
