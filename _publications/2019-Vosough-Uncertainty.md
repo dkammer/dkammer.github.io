@@ -1,7 +1,21 @@
 ---
 title: Visualization approaches for understanding uncertainty in flow diagrams
 author: Zana Vosough, Dietrich Kammer, Mandy Keck, Rainer Groh
-url: http://doi.org/10.1016/j.cola.2019.03.002
+link: http://doi.org/10.1016/j.cola.2019.03.002
+year: 2019
+venue: Journal of Computer Languages
+bibtex: >-
+    @article{VOSOUGH201944,
+    title = "Visualization approaches for understanding uncertainty in flow diagrams",
+    journal = "Journal of Computer Languages",
+    volume = "52",
+    pages = "44 - 54",
+    year = "2019",
+    issn = "2590-1184",
+    doi = "https://doi.org/10.1016/j.cola.2019.03.002",
+    url = "http://www.sciencedirect.com/science/article/pii/S1045926X18300168",
+    author = "Zana Vosough and Dietrich Kammer and Mandy Keck and Rainer Groh",
+    keywords = "Uncertainty visualization, Flow diagrams, Sankey diagrams, Parallel sets, Product costing, Business intelligence"}
 ---
 Business Intelligence applications often handle data sets that contain uncertain values. In this contribution, we focus on product costing, which deals with the average costs of product components – that vary significantly based on many factors such as inflation, exchange rates, and commodity prices. After experts estimate the uncertainty information for single items, decision makers need to quickly ascertain the cost uncertainties within the hierarchical data structure of the complete product.
 

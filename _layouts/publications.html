@@ -7,7 +7,7 @@ layout: default
 
   {%- for publ in site.publications -%}
   <p class="noindent spacing">
-    {{ publ.content }}
+    {{ publ.author }} ({{ publ.year }}). <a href="{{publ.link}}">{{ publ.title }}</a>. In: {{ publ.venue }}.
   </p>
   {%- endfor -%}
 
