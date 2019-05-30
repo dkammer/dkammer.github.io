@@ -276,10 +276,13 @@ table {
   text-align: center;
 }
 
+.topspacing {
+  margin-top: $spacing-unit;
+}
+
 .spacing {
   margin-bottom: $spacing-unit / 2;
   margin-top: $spacing-unit / 2;
-
 }
 
 .noindent {

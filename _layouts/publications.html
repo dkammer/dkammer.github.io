@@ -5,10 +5,18 @@ layout: default
 
   <h3 class="publications-title">{{ page.title | escape }}</h1>
 
-  {%- for publ in site.publications -%}
-  <p class="noindent spacing">
-    {{ publ.author }} ({{ publ.year }}). <a href="{{publ.link}}">{{ publ.title }}</a>. In: {{ publ.venue }}.
-  </p>
+  {%- assign sorted = site.publications | reverse -%}
+  {%- assign current_year = sorted[0].year -%}
+  <p class="noindent center topspacing">{{ current_year }}</p>
+  {%- for publ in sorted -%}
+    {%- if current_year != publ.year-%}
+      {%- assign current_year = publ.year -%}
+      <p class="noindent center topspacing">{{ current_year }}</p>
+    {%- endif -%}
+    
+    <p class="noindent spacing">
+      {{ publ.author }} ({{ publ.year }}). <a href="{{publ.link}}">{{ publ.title }}</a>. In: {{ publ.venue }}. {{ publ.link }}
+    </p>
   {%- endfor -%}
 
 </article>
