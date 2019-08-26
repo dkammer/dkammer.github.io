@@ -1,4 +1,3 @@
-
 ---
 title: Glyphboard&colon; Visual Insights into High-dimensional Data
 author: Kammer, D., Keck, M., Gründer, T., Maasch, A., Thom, T., Kleinsteuber, M., Groh, R.
