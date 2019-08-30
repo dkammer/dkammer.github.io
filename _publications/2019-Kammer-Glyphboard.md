@@ -1,5 +1,5 @@
 ---
-title: Glyphboard&colon; Visual Insights into High-dimensional Data
+title: Glyphboard&colon; Visual Exploration of High-dimensional Data Combining Glyphs with Dimensionality Reduction
 author: Kammer, D., Keck, M., Gründer, T., Maasch, A., Thom, T., Kleinsteuber, M., Groh, R.
 link: http://doi.org/to_appear
 year: 2019
