@@ -1,7 +1,6 @@
 ---
-title: Get Inspired&colon; A Visual Divi- de and Conquer Approach for Motive-based Search Scenarios
+title: Get Inspired&colon; A Visual Divide and Conquer Approach for Motive-based Search Scenarios
 author: Both, A., Keck, M., Nguyen, V., Henkens, D., Kammer, D., Groh, R.
-link: https://arxiv.org/pdf/1610.09514.pdf
 year: 2014
 venue: 13th International Conference WWW/Internet
 type: conference
