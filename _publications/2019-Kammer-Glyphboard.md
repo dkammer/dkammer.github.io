@@ -2,14 +2,14 @@
 title: Glyphboard&colon; Visual Exploration of High-dimensional Data Combining Glyphs with Dimensionality Reduction
 author: Kammer, D., Keck, M., Gründer, T., Maasch, A., Thom, T., Kleinsteuber, M., Groh, R.
 link: https://doi.org/10.1109/TVCG.2020.2969060
-year: 2019
+year: 2020
 venue: IEEE Transactions on Visualization and Computer Graphics
 type: journal
 bibtex: >-
-@ARTICLE{8967136, 
+    @ARTICLE{8967136, 
     author={D. {Kammer} and M. {Keck} and T. {Gründer} and A. {Maasch} and T. {Thom} and M. {Kleinsteuber} and R. {Groh}}, 
     journal={IEEE Transactions on Visualization and Computer Graphics}, 
-    title={Glyphboard - Visual Exploration of High-dimensional Data Combining Glyphs with Dimensionality Reduction}, 
+    title={Glyphboard: Visual Exploration of High-dimensional Data Combining Glyphs with Dimensionality Reduction}, 
     year={2020}, 
     volume={}, 
     number={}, 
