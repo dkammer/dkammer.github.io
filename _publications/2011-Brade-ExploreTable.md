@@ -1,6 +1,6 @@
 ---
 title: Immersive data grasping using the explore table
-author: brade, M., Kammer, D., Keck, M., Groh, R.
+author: Brade, M., Kammer, D., Keck, M., Groh, R.
 link: https://doi.org/10.1145/1935701.1935809
 year: 2011
 venue: Proceedings of the fifth international conference on Tangible, embedded, and embodied interaction
