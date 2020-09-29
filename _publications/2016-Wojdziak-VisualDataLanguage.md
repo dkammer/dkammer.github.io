@@ -1,6 +1,6 @@
 ---
 title: Towards a Visual Data Language to Improve Insights into Complex Multidimensional Data
-author: Wojdziak, J., Kirchner, b., Kammer, D., Herrmann, M., Groh, R.
+author: Wojdziak, J., Kirchner, B., Kammer, D., Herrmann, M., Groh, R.
 link: https://doi.org/10.1007/978-3-319-40349-6_20
 year: 2016
 venue: Human Interface and the Management of Information&colon; Information, Design and Interaction

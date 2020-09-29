@@ -1,6 +1,6 @@
 ---
 title: The eleventh finger&colon; levels of manipulation in multi-touch interaction
-author: Kammer, D., franke, I.s., Groh, R., steinhauf, J., Kirchner, M., Schönefeld, F. 
+author: Kammer, D., Franke, I.S., Groh, R., Steinhauf, J., Kirchner, M., Schönefeld, F. 
 link: https://doi.org/10.1145/2074712.2074741
 year: 2011
 venue: Proceedings of the 29th Annual European Conference on Cognitive Ergonomics

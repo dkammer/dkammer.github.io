@@ -1,6 +1,6 @@
 ---
 title: Developing mobile interface metaphors and gestures
-author: Kammer, D., schmidt, D., Keck, M., Groh, R. 
+author: Kammer, D., Schmidt, D., Keck, M., Groh, R. 
 link: https://doi.org/10.1145/2493190.2494427
 year: 2013
 venue: Proceedings of the 15th international conference on Human-computer interaction with mobile devices and services

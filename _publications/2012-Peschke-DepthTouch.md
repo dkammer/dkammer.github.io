@@ -1,6 +1,6 @@
 ---
 title: DepthTouch&colon; an elastic surface for tangible computing
-author: Peschke, J., Göbel, f., Gründer, T., Keck, M., Kammer, D., Groh, R. 
+author: Peschke, J., Göbel, F., Gründer, T., Keck, M., Kammer, D., Groh, R. 
 link: https://doi.org/10.1145/2254556.2254706
 year: 2012
 venue: Proceedings of the International Working Conference on Advanced Visual Interfaces

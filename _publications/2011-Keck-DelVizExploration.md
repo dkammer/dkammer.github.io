@@ -1,6 +1,6 @@
 ---
 title: DelViz&colon; Exploration of Tagged Information Visualizations
-author: na
+author: Keck, M., Kammer, D., Iwan, R., Groh, R., Taranko S.
 link: https://www.user.tu-berlin.de/komm/CD/paper/060514.pdf
 year: 2011
 venue: Informatik 2011 - Interaktion und Visualisierung im Daten-Web

@@ -1,6 +1,6 @@
 ---
 title: VisBIA 2018 – Workshop on Visual Interfaces for Big Data Environments in Industrial Applications
-author: Kammer, D., Keck, M., both, a., Jacucci, G., Groh, R.
+author: Kammer, D., Keck, M., Both, a., Jacucci, G., Groh, R.
 link: https://doi.org/10.1145/3206505.3206603
 year: 2018
 venue: Proceedings of the 2018 International Working Conference on advanced Visual Interfaces
