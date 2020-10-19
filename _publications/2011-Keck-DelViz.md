@@ -1,5 +1,5 @@
 ---
-title: DelViz&colon; Ein Werkzeug zur Explorati- on von Visualisierungen
+title: DelViz&colon; Ein Werkzeug zur Exploration von Visualisierungen
 author: Keck, M., Koalick, G., Kammer, D., Taranko, S., Wojdziak, J.
 link: https://t1p.de/ndv8
 year: 2011
