@@ -1,5 +1,5 @@
 ---
-title: The Binary Brain&colon Learning How to Teach Computer Science to Students of Electrical Engineering
+title: The Binary Brain&colon; Learning How to Teach Computer Science to Students of Electrical Engineering
 author: Kammer, D.
 link: https://nbn-resolving.org/urn:nbn:de:bsz:15-qucosa2-726840
 year: 2020
