@@ -1,7 +1,7 @@
 ---
 title: Research Agenda on Designing the Future of Elastic Touch
 author: Müller, M., Stoll, E., Büschel, L., Gehrke, S., Hannß, F., Kammer, D.
-link: https://designtouch2020.files.wordpress.com/2020/09/mueller.pdf
+link: https://designtouch2020.files.wordpress.com/2020/10/mueller_2.pdf
 year: 2020
 venue: Designing Digital Touch&colon; Social and Sensory Aspects and Challenges. Workshop at EuroHaptics 2020, Leiden, Netherlands
 type: journal
