@@ -1,5 +1,5 @@
 ---
-title: Designing Interfaces for Elastic Displays UsingWorkshop and Prototyping Methods
+title: Designing Interfaces for Elastic Displays Using Workshop and Prototyping Methods
 author: Hannß, F., Müller, M., Kammer, D.
 link: https://doi.org/10.18420/muc2021-mci-ws09-391
 year: 2021
