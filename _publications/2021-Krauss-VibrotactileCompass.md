@@ -1,7 +1,7 @@
 ---
 title: A head-based vibrotactile compass for cyclists
 author: Krauß, A.-M., Wittchen, D., Kammer, D., Freitag, G.
-link: https://doi.org/10.18420/muc2021-mci-ws09-381
+link: https://dl.gi.de/handle/20.500.12116/37358
 year: 2021
 venue: Mensch und Computer 2021 - Workshopband. Bonn&colon; Gesellschaft für Informatik e.V.
 type: workshop

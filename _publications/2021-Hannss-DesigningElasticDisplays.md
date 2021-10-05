@@ -1,7 +1,7 @@
 ---
 title: Designing Interfaces for Elastic Displays Using Workshop and Prototyping Methods
 author: Hannß, F., Müller, M., Kammer, D.
-link: https://doi.org/10.18420/muc2021-mci-ws09-391
+link: https://dl.gi.de/handle/20.500.12116/37359
 year: 2021
 venue: Mensch und Computer 2021 - Workshopband. Bonn&colon; Gesellschaft für Informatik e.V.
 type: workshop
