@@ -1,17 +1,20 @@
 ---
 title: Experience of Teaching Data Visualization using Project-based Learning
 author: Kammer, D., Stoll, E., Urban, A.
-link: https://visactivities.github.io/
+link: https://visactivities.github.io/papers/6705_Dietrich_Kammer.pdf
 year: 2021
-venue: IEEE VIS Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing
+venue: VisActivities&colon; 2nd IEEE VIS Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing, held in conjunction with IEEE VIS 2021
 type: workshop
 bibtex: >-
-    @inproceedings{visactivitiesKammer2021,
+    @inproceedings{kammer2021experienceteaching,
     author = {Kammer, Dietrich AND Stoll, Elena AND Urban, Adam},
     title = {Experience of Teaching Data Visualization using Project-based Learning},
-    booktitle = {IEEE VIS Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing},
+    booktitle = {VisActivities: 2nd IEEE VIS Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing, held in conjunction with IEEE VIS 2021, New Orleans, LA, USA. 2021},
     year = {2021},
-    editor = {Samuel Huron AND Benjamin Bach AND Georgia Panagiotidou AND Jonathan C. Roberts AND Mandy Keck AND Sheelagh Carpendale}
+    editor = {Huron, Samuel AND Bach, Benjamin AND Panagiotidou, Georgia AND Keck, Mandy AND Roberts, Jonathan C. AND Carpendale, Sheelagh},
+    doi = {https://visactivities.github.io/papers/6705_Dietrich_Kammer.pdf},
+    publisher = {VisActivities},
+    address = {New Orleans, LA, USA.}
     }
 ---
 We report our experience in two installations of a course on data visualization that featured project-based learning. Given the rationale of this approach, we show which input was provided when necessary for the students to achieve their goals. We also discuss and compare the tools we found useful for students to accomplish their goals. Fitting project-based learning into the standard schedule of a semester at University is a particular challenge, because it is hard for students to devote longer periods of time when working on their projects. Furthermore, online learning was a challenge to effectively perform group activities and work. We address didactic considerations, our course structure, tools, and student projects. Finally, we draw conclusions on the results and improvements in the course structure.
