@@ -1,9 +1,9 @@
 ---
 title: Experience of Teaching Data Visualization using Project-based Learning
 author: Kammer, D., Stoll, E., Urban, A.
-link: https://visactivities.github.io/papers/6705_Dietrich_Kammer.pdf
+link: http://arxiv.org/abs/2111.04428
 year: 2021
-venue: VisActivities&colon; 2nd IEEE VIS Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing, held in conjunction with IEEE VIS 2021
+venue: VisActivities&colon; 2nd IEEE VIS Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing, held in conjunction with IEEE VIS 2021. http://visactivities.github.io/
 type: workshop
 bibtex: >-
     @inproceedings{kammer2021experienceteaching,
@@ -12,7 +12,7 @@ bibtex: >-
     booktitle = {VisActivities: 2nd IEEE VIS Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing, held in conjunction with IEEE VIS 2021, New Orleans, LA, USA. 2021},
     year = {2021},
     editor = {Huron, Samuel AND Bach, Benjamin AND Panagiotidou, Georgia AND Keck, Mandy AND Roberts, Jonathan C. AND Carpendale, Sheelagh},
-    doi = {https://visactivities.github.io/papers/6705_Dietrich_Kammer.pdf},
+    doi = {http://arxiv.org/abs/2111.04428},
     publisher = {VisActivities},
     address = {New Orleans, LA, USA.}
     }
