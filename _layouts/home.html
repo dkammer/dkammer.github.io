@@ -4,7 +4,7 @@ layout: default
 
 <div class="home flex-container">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>
   {%- endif -%}
 
   <div class="flex-container">
@@ -37,7 +37,7 @@ layout: default
           {{ affil.description }}
         </p>
           {%- if affil.link -%}
-          <p class="small uppercase affillink"><b><a href="{{ affil.link }}">{{ affil.title | escape }}</a></b></p>
+          <p class="small uppercase"><b><a class="affillink" href="{{ affil.link }}">{{ affil.title | escape }}</a></b></p>
           {%- else -%}
           <p class="small uppercase "><b>{{ affil.title | escape }}</b></p>
           {%- endif -%}

@@ -176,18 +176,6 @@ a {
     text-decoration: none;
   }
 
-  .affillink {
-    color: #fff;
-  }
-
-  .affillink &:visited {
-    color: #fff;
-  }
-
-  .affillink &:hover {
-    color: #fff;
-    text-decoration: none;
-  }
 
   .social-media-list &:hover {
     text-decoration: none;
@@ -198,6 +186,18 @@ a {
   }
 }
 
+.affillink {
+  color: #fff !important;
+
+  &:visited {
+    color: #fff;
+  }
+
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+}
 
 /**
  * Blockquotes
