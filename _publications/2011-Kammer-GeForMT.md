@@ -4,7 +4,7 @@ author: Kammer, D., Henzen, C., Keck, M., Taranko, S.
 link: https://t1p.de/ndv8
 year: 2011
 venue: Wieder mehr sehen! - Aktuelle Einblicke in die Technische Visualistik
-type: journal
+type: book
 bibtex: >-
     @inbook{aufsatz45121,
     affiliation = {Professur für Mediengestaltung},

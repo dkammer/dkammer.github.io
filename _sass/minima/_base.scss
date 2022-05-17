@@ -8,7 +8,9 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-
+b {
+  font-weight: $base-font-weight * 2;
+}
 
 /**
  * Basic styling
@@ -39,11 +41,6 @@ ul, ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
 }
-
-p {
-  text-indent: $spacing-unit;
-}
-
 
 /**
  * `main` element
@@ -101,7 +98,7 @@ h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 24px;
   font-weight: $base-font-weight * 2;
   margin-bottom: 0;
 
@@ -112,6 +109,15 @@ h1 {
       color: $text-color;
     }
   }
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: $base-font-weight * 2;
 }
 
 
@@ -129,6 +135,19 @@ a {
 
   &:hover {
     color: $text-color;
+    text-decoration: none;
+  }
+
+  .affillink {
+    color: #fff;
+  }
+
+  .affillink &:visited {
+    color: #fff;
+  }
+
+  .affillink &:hover {
+    color: #fff;
     text-decoration: none;
   }
 
@@ -198,7 +217,7 @@ pre {
   margin-left: auto;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
-  padding-bottom: $spacing-unit;
+  padding-bottom: $vertical-space;
   background-color: $background-color;
   @extend %clearfix;
 
@@ -278,15 +297,6 @@ table {
 
 .topspacing {
   margin-top: $spacing-unit;
-}
-
-.spacing {
-  margin-bottom: $spacing-unit / 2;
-  margin-top: $spacing-unit / 2;
-}
-
-.noindent {
-  text-indent: 0;
 }
 
 .uppercase {

@@ -4,7 +4,7 @@ author: Groh, R., Eske, A., Alsleben, K., Kammer, D., Clemente, M. de a.M., Dugu
 link: https://www.eurobuch.de/buch/isbn/9783842318687.html
 year: 2009
 venue: Terpsichore der netzkunst, kuecocokue berichte 2008 bis 2009, Kurd alsleben und antje eske (Hrsg.)
-type: journal
+type: book
 bibtex: >-
     @inbook{aufsatz50173,
     affiliation = {Professur für Mediengestaltung},

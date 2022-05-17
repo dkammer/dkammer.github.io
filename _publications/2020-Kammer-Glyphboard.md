@@ -5,6 +5,7 @@ link: https://doi.org/10.1109/TVCG.2020.2969060
 year: 2020
 venue: IEEE Transactions on Visualization and Computer Graphics
 type: journal
+important: yes
 bibtex: >-
     @ARTICLE{8967136, 
     author={D. {Kammer} and M. {Keck} and T. {Gründer} and A. {Maasch} and T. {Thom} and M. {Kleinsteuber} and R. {Groh}}, 

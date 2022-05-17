@@ -5,6 +5,7 @@ link: https://doi.org/10.1145/1936652.1936662
 year: 2010
 venue: ACM International Conference on Interactive Tabletops and Surfaces
 type: conference
+important: yes
 bibtex: >-
     @inproceedings{Kammer:2010:TFM:1936652.1936662,
     author = {Kammer, Dietrich and Wojdziak, Jan and Keck, Mandy and Groh, Rainer and Taranko, Severin},

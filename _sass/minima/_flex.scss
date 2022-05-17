@@ -1,0 +1,58 @@
+.flex-container {
+/* We first create a flex layout context */
+    display: flex;
+
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+    *  Remember this is the same as:
+    *  flex-direction: row;
+    *  flex-wrap: wrap;
+    */
+    flex-flow: row wrap;
+
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-between;
+
+    &__publications {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+    }
+}
+
+.flex-item-header {
+    align-self: flex-end;
+}
+
+.col9 {
+    width: $spacing-subunit * 8 + $spacing-grid * 9;
+}
+
+
+.col7 {
+    width: $spacing-subunit * 6 + $spacing-grid * 7;
+}
+
+.col2 {
+    width: $spacing-subunit * 1 + $spacing-grid * 2;
+}
+
+.col3 {
+    width: $spacing-subunit * 2 + $spacing-grid * 3;
+}
+
+.col3-padding {
+    width: $spacing-subunit * 2 + $spacing-grid * 3 - $spacing-inner-padding * 2
+}
+
+.offset3 {
+    margin-left: $spacing-subunit * 3 + $spacing-grid * 3;
+}
+
+.left-padding {
+    margin-left: $spacing-subunit;
+}
+
+.bottom-padding {
+    margin-bottom: $vertical-space;
+}

@@ -4,7 +4,7 @@ author: Kammer, D., Freitag, G., Keck, M., Wacker, M.
 link: https://www.semanticscholar.org/paper/Taxonomy-and-Overview-of-Multi-touch-Frameworks-%3A-%2C-Kammer-Keck/447d2b0540bfb0ea5f944581e06e715ebaa1430c
 year: 2010
 venue: Workshop on engineering Patterns for Multitouch Interfaces
-type: journal
+type: workshop
 bibtex: >-
     @conference{aufsatz44933,
     affiliation = {Professur für Mediengestaltung},

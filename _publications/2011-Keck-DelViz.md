@@ -4,7 +4,7 @@ author: Keck, M., Koalick, G., Kammer, D., Taranko, S., Wojdziak, J.
 link: https://t1p.de/ndv8
 year: 2011
 venue: Wieder mehr sehen! - Aktuelle Einblicke in die Technische Visualistik
-type: journal
+type: book
 bibtex: >-
     @inbook{aufsatz45123,
     affiliation = {Professur für Mediengestaltung},

@@ -1,22 +1,30 @@
 ---
 layout: default
 ---
-<article>
 
-  <h3 class="publications-title">{{ page.title | escape }}</h1>
-
-  {%- assign sorted = site.publications | reverse -%}
-  {%- assign current_year = sorted[0].year -%}
-  <p class="noindent center topspacing">{{ current_year }}</p>
+{%- assign sorted = site.publications | reverse -%}
+{%- assign current_year = sorted[0].year -%}
+{% assign firstpubl = true %}
+<div class="flex-container__publications">
+  <div class="col3">
+    <h3 class="baseline-correction">Publications</h3>
+  </div>
   {%- for publ in sorted -%}
-    {%- if current_year != publ.year-%}
-      {%- assign current_year = publ.year -%}
-      <p class="noindent center topspacing">{{ current_year }}</p>
-    {%- endif -%}
-    
-    <p class="noindent spacing">
-      {{ publ.author }} ({{ publ.year }}). <a href="{{publ.link}}">{{ publ.title }}</a>. In: {{ publ.venue }}. {{ publ.link }}
-    </p>
-  {%- endfor -%}
-
-</article>
+      {% if firstpubl == true %}
+        <div class="col7 left-padding">
+        {% assign firstpubl = false %}
+      {% else %}
+        <div class="col7 offset3">
+      {% endif %}
+          <p class="small line-space">
+            {{ publ.author }} ({{ publ.year }}). <a href="{{publ.link}}">{{ publ.title }}</a>. In: {{ publ.venue }}. {{ publ.link }}
+          </p>
+        </div>
+        {%- if current_year != publ.year or forloop.first == true -%}
+        {%- assign current_year = publ.year -%}
+        <div class="col2 left-padding">
+          <p class="small"><b>{{ current_year }}</b></p>
+        </div>
+        {%- endif -%}
+{%- endfor -%}
+</div>

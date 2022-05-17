@@ -2,44 +2,107 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home flex-container">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
-
-  <p class="noindent">{{- site.description | escape -}}</p>
-
-  <p class="center spacing">***</p>
-
-  {%- for affil in site.affiliations -%}
-
-    <p class="noindent spacing">
-      {%- if affil.link -%}
-      <span class="uppercase"><a href="{{ affil.link }}">{{ affil.title | escape }}</a>&nbsp;</span>
-      {%- else -%}
-      <span class="uppercase">{{ affil.title | escape }}&nbsp;</span>
-      {%- endif -%}
-       &mdash; {{ affil.description }}
-    </p>
-  {%- endfor -%}
-  
-  {%- if site.posts.size > 0 -%}
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <p class="center spacing">***</p>
-      <p class="noindent">
-        {%- if post.link -%}
-        <span class="uppercase"><a href="{{site.baseurl}}/{{ post.link }}">{{ post.title | escape }}</a>&nbsp;</span>
-        {%- else -%}
-        <span class="uppercase">{{ post.title | escape }}&nbsp;</span>
-        {%- endif -%}
-         &mdash; {{ post.description }}
+  <div class="flex-container">
+    <div class="col3">
+      <a href="{{site.url}}"><div class="portrait-container"></div></a>
+    </div>
+    <div class="col7 left-padding bottom-padding">
+      <p class="noindent">{{- site.description | escape -}}</p>
+      <p class="noindent iconbar">
+          <a href="https://dkammer.org"><i class="fas fa-user-circle"></i></a>
+          <a href="mailto:kammer@htw-dresden.de"><i class="fas fa-envelope-square"></i></a>
+          <a href="https://www.xing.com/profile/Dietrich_Kammer2"><i class="fab fa-xing-square"></i></a>
+          <a href="https://github.com/dkammer"><i class="fab fa-github-square"></i></a>
+          <a href="https://twitter.com/vis_engineering"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://scholar.google.de/citations?user=zlhrEJ8AAAAJ"><i class="fab fa-google"></i></a>
+          <a href="https://www.researchgate.net/profile/Dietrich_Kammer"><i class="fab fa-researchgate"></i></a>
+          <a href="https://orcid.org/0000-0002-3822-6043"><img class="icon-png" src="{{ "/assets/orcid.png" | relative_url }}" alt="ORCID ID" /></a>
       </p>
-      {%- endfor -%}
-    </ul>
+    </div>
+  </div>
 
-  {%- endif -%}
+  <div class="flex-container bottom-padding">
+    <div class="col3">
+      <h3 class="baseline-correction">Affiliations</h3>
+    </div>
+    {%- for affil in site.affiliations reversed -%}
+      {%- if affil.status=="active" -%}      
+      <div class="col3-padding left-padding affiliation">
+        <p class="small affildescription">
+          {{ affil.description }}
+        </p>
+          {%- if affil.link -%}
+          <p class="small uppercase affillink"><b><a href="{{ affil.link }}">{{ affil.title | escape }}</a></b></p>
+          {%- else -%}
+          <p class="small uppercase "><b>{{ affil.title | escape }}</b></p>
+          {%- endif -%}
+        </p>
+      </div>
+      {%- endif -%} 
+    {%- endfor -%}
+</div>
+  
+  <div class="flex-container bottom-padding">
+    <div class="col3">
+      <h3 class="baseline-correction">Projects</h3>
+    </div>
+    {%- for project in site.projects reversed -%}
+    {% if forloop.first == true %}
+      <div class="col7 left-padding">
+        {% else %}
+        <div class="col7 offset3">
+        {% endif %}
+        <p><b>{{ project.title | escape }}</b></p>
+        <p class="line-space">{{ project.funding }}</p>
+      </div>
+      <div class="col2 left-padding">
+        <p class="small years"><b>{{ project.time }}</b></p>
+      </div>
+    {%- endfor -%}
+  </div>
+
+  <div class="flex-container bottom-padding">
+    <div class="col3">
+      <h3 class="baseline-correction">Awards</h3>
+    </div>
+    {%- for award in site.awards reversed -%}
+    {% if forloop.first == true %}
+      <div class="col7 left-padding">
+        {% else %}
+        <div class="col7 offset3">
+        {% endif %}
+        <p class="line-space">{{ award.title }} {{ award.description }}</p>
+      </div>
+      <div class="col2 left-padding">
+        <p class="small years"><b>{{ award.year }}</b></p>
+      </div>
+    {%- endfor -%}
+  </div>
+
+  {% assign firstpubl = true %}
+  <div class="flex-container__publications">
+    <div class="col3">
+      <h3 class="baseline-correction">Publications<br />(<a href="{{site.baseurl}}/publications">Full List</a>)</h3>
+    </div>
+    {%- for publ in site.publications reversed -%}
+      {% if publ.important %}
+        {% if firstpubl == true %}
+          <div class="col7 left-padding">
+          {% assign firstpubl = false %}
+        {% else %}
+          <div class="col7 offset3">
+        {% endif %}
+            <p class="line-space">
+              {{ publ.author }} ({{ publ.year }}). <a href="{{publ.link}}">{{ publ.title }}</a>. In: {{ publ.venue }}. {{ publ.link }}
+            </p>
+          </div>
+    {% endif %}
+  {%- endfor -%}
+  </div>
 
 </div>

@@ -29,8 +29,9 @@
 }
 
 .iconbar {
-  font-size: $base-font-size * 3;
+  font-size: $base-font-size * 2.5;
   letter-spacing: -2px;
+  padding-top: $spacing-subunit;
   a {
     color: $text-color;
     &:visited {
@@ -41,6 +42,36 @@
       text-decoration: none;
     }
   }
+}
+
+.rightalign {
+  text-align: right;
+}
+
+.small {
+  font-size: 14px;
+}
+
+.years {
+  padding-top: 4px;
+}
+
+.affiliation {
+  background-color: #29abe2;
+  color: #fff;
+  padding: $spacing-inner-padding;
+}
+
+.affildescription {
+  height: 120px; 
+}
+
+.line-space {
+  padding-bottom: $base-font-size;
+}
+
+.baseline-correction {
+  margin-top: -7px;
 }
 
 .icon-png {
@@ -127,10 +158,10 @@
 
 .portrait-container {
   background-image: url('2019_Kammer_Person.jpg');
-  background-size: 150px;
+  background-size: $spacing-subunit * 2 + $spacing-grid * 3;
   background-repeat: no-repeat;
-  width: 150px;
-  height: 150px;
+  width: $spacing-subunit * 2 + $spacing-grid * 3;
+  height: $spacing-subunit * 2 + $spacing-grid * 3;
   margin-bottom: $spacing-unit / 2;
 }  
 

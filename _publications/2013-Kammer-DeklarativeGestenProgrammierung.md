@@ -4,7 +4,7 @@ author: Kammer, D.
 link: https://doi.org/10.1007/978-3-642-36113-5_3
 year: 2013
 venue: Multi-Touch&colon; Interaktion durch Berührung
-type: journal
+type: book
 bibtex: >-
     @Inbook{Kammer2013,
     author="Kammer, Dietrich",

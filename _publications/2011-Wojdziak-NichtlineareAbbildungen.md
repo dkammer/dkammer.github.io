@@ -4,7 +4,7 @@ author: Wojdziak, J., Kammer, D., Zavesky, M., Münch, T., Ebner, T., Franke, I
 link: https://t1p.de/ndv8
 year: 2011
 venue: Wieder mehr sehen! - Aktuelle Einblicke in die Technische Visualistik
-type: journal
+type: book
 bibtex: >-
     @inbook{aufsatz45124,
     affiliation = {Professur für Mediengestaltung},

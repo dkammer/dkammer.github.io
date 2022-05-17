@@ -5,6 +5,7 @@ link: https://doi.org/10.1109/MCG.2021.3115416
 year: 2021
 venue: IEEE Computer Graphics and Applications
 type: journal
+important: yes
 bibtex: >-
     @ARTICLE{9556143,  
         author={Keck, Mandy and Stoll, Elena and Kammer, Dietrich},  

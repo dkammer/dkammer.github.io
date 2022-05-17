@@ -4,7 +4,7 @@ author: Brade, M., Keck, M., Kammer, D., Salmen, A., and Groh, R.
 link: https://dl.gi.de/20.500.12116/7998
 year: 2011
 venue: Workshop-Proceedings der Tagung Mensch & Computer 2011. überMe- DIen|ÜbeRmorgen
-type: journal
+type: workshop
 bibtex: >-
     @inproceedings{mci/Brade2011,
     author = {Brade, Marius AND Keck, Mandy AND Kammer, Dietrich AND Salmen, Angelika AND Groh, Rainer},

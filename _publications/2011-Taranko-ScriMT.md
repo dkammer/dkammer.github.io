@@ -4,7 +4,7 @@ author: Taranko, S., Wuttig, D., Eschrich, B., Kammer, D., Keck, M.
 link: https://t1p.de/ndv8
 year: 2011
 venue: Wieder mehr sehen! - Aktuelle Einblicke in die Technische Visualistik
-type: journal
+type: book
 bibtex: >-
     @inbook{aufsatz45122,
     affiliation = {Professur für Mediengestaltung},
