@@ -52,7 +52,8 @@ layout: default
       <h3 class="baseline-correction">Projects</h3>
     </div>
     {%- for project in site.projects reversed -%}
-    {% if forloop.first == true %}
+    <div class="flex-container">
+      {% if forloop.first == true %}
       <div class="col7 left-padding">
         {% else %}
         <div class="col7 offset3">
@@ -63,6 +64,7 @@ layout: default
       <div class="col2 left-padding">
         <p class="small years"><b>{{ project.time }}</b></p>
       </div>
+      </div>
     {%- endfor -%}
   </div>
 
@@ -71,6 +73,7 @@ layout: default
       <h3 class="baseline-correction">Awards</h3>
     </div>
     {%- for award in site.awards reversed -%}
+    <div class="flex-container">
     {% if forloop.first == true %}
       <div class="col7 left-padding">
         {% else %}
@@ -81,6 +84,7 @@ layout: default
       <div class="col2 left-padding">
         <p class="small years"><b>{{ award.year }}</b></p>
       </div>
+    </div>
     {%- endfor -%}
   </div>
 

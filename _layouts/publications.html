@@ -10,6 +10,7 @@ layout: default
     <h3 class="baseline-correction">Publications</h3>
   </div>
   {%- for publ in sorted -%}
+  <div class="flex-container">
       {% if firstpubl == true %}
         <div class="col7 left-padding">
         {% assign firstpubl = false %}
@@ -26,5 +27,6 @@ layout: default
           <p class="small"><b>{{ current_year }}</b></p>
         </div>
         {%- endif -%}
+      </div>
 {%- endfor -%}
 </div>

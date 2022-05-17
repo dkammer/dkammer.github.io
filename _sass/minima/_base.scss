@@ -1,4 +1,39 @@
 /**
+ * Roboto Font
+ */
+ @font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto Black';
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("fonts/Roboto-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto Medium';
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+/**
  * Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
@@ -9,6 +44,7 @@ dl, dd, ol, ul, figure {
 }
 
 b {
+  font-family: 'Roboto Bold', Arial;
   font-weight: $base-font-weight * 2;
 }
 
@@ -98,6 +134,7 @@ h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  font-family: 'Roboto Black', Arial;
   font-size: 24px;
   font-weight: $base-font-weight * 2;
   margin-bottom: 0;
@@ -116,6 +153,7 @@ h2 {
 }
 
 h3 {
+  font-family: 'Roboto Black', Arial;
   font-size: 24px;
   font-weight: $base-font-weight * 2;
 }

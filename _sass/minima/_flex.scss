@@ -56,3 +56,58 @@
 .bottom-padding {
     margin-bottom: $vertical-space;
 }
+
+@include media-query($on-tablet) {
+    .flex-container {
+        display: flex;
+        flex-flow: column;
+    }
+  .col2 {
+    width: auto;
+    order: -1;
+    }
+  .col3 {
+    width: auto;
+  }
+  .col3-padding {
+      width: auto;
+  }
+  .offset3 {
+      margin-left: 0px;
+  }
+  .col7 {
+      width: auto;
+  }
+  .col9 {
+      width: auto;
+  }
+  .left-padding {
+      margin-left: 0px;
+  } 
+  .rightalign {
+      text-align: left;
+  }
+
+  .bottom-padding   {
+      margin-bottom: $vertical-space / 2;
+  }
+
+  .wrapper {
+    padding-bottom: $vertical-space / 2;
+  }
+
+  .flex-item-header {
+    align-self: flex-start;
+   }
+
+  .affiliation {
+    background-color: #29abe2;
+    color: #fff;
+    padding: $spacing-inner-padding;
+    margin-bottom: $spacing-subunit;
+  }
+  
+  .affildescription {
+    height: auto;
+  }
+}
