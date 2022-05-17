@@ -16,13 +16,14 @@
 title: Prof. Dr.-Ing. Dietrich Kammer
 email: kammer@htw-dresden.de
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a professor for Visual Engineering (Technische Visualistik) at the University 
+  I am professor for Visual Engineering (Technische Visualistik) at the University 
   for Applied Sciences in Dresden (Hochschule für Technik und Wirtschaft Dresden). 
   My teaching and research is focused on visualization and interaction techniques and 
-  technologies. During my PhD I developed a formalization for multitouch-gestures 
-  based on a semiotic analysis framework. My current research is focused on 
+  technologies. During my PhD at TU Dresden, I developed a formalization for multitouch-gestures 
+  based on a semiotic analysis framework. Current research is focused on 
   multidimensional visualization methods in the domain of machine learning and 
-  interaction techniques for novel, elastic displays.
+  interaction techniques for novel, elastic displays. My teaching is focused on future skills 
+  and problem-solving by employing methods such as blended and project-based learning.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dkammer.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: vis_engineering
