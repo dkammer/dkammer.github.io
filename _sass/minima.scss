@@ -4,6 +4,9 @@
 
 $base-font-family: "Roboto", "Arial" !default;
 $base-font-size:   18px !default;
+$base-font-size-title: 28px !default;
+$base-font-size-heading: 24px !default;
+$base-font-size-small: 14px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
@@ -47,6 +50,18 @@ $on-laptop:        800px !default;
 
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
+}
+
+@mixin relative-font-size-heading($ratio) {
+  font-size: $base-font-size-heading * $ratio;
+}
+
+@mixin relative-font-size-title($ratio) {
+  font-size: $base-font-size-title * $ratio;
+}
+
+@mixin relative-font-size-small($ratio) {
+  font-size: $base-font-size-small * $ratio;
 }
 
 // Import partials.

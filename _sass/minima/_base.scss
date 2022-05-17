@@ -135,7 +135,7 @@ h2, h3, h4, h5, h6 {
 
 h1 {
   font-family: 'Roboto Black', Arial;
-  font-size: 28px;
+  font-size: $base-font-size-title;
   font-weight: $base-font-weight * 2;
   margin-bottom: 0;
 
@@ -149,12 +149,12 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: $base-font-size-heading;
 }
 
 h3 {
   font-family: 'Roboto Black', Arial;
-  font-size: 24px;
+  font-size: $base-font-size-heading;
   font-weight: $base-font-weight * 2;
 }
 
