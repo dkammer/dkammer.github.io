@@ -31,18 +31,25 @@ layout: default
       <h3 class="baseline-correction">Affiliations</h3>
     </div>
     {%- for affil in site.affiliations reversed -%}
-      {%- if affil.status=="active" -%}      
+      {%- if affil.status=="active" -%}
       <div class="col3-padding left-padding affiliation">
-        <p class="small affildescription">
-          {{ affil.description }}
-        </p>
+        <div>
           {%- if affil.link -%}
-          <p class="small uppercase"><b><a class="affillink" href="{{ affil.link }}">{{ affil.title | escape }}</a></b></p>
-          {%- else -%}
-          <p class="small uppercase "><b>{{ affil.title | escape }}</b></p>
-          {%- endif -%}
-        </p>
-      </div>
+          <a class="affillink" href="{{ affil.link }}">
+          {%- endif -%} 
+            <p class="small affildescription">
+            {{ affil.description }}
+          </p>
+            {%- if affil.link -%}
+            <p class="small uppercase"><b><i class="fas fa-link"></i> {{ affil.title | escape }}</b></p>
+            {%- else -%}
+            <p class="small uppercase "><b>{{ affil.title | escape }}</b></p>
+            {%- endif -%}
+        </div>
+        {%- if affil.link -%}
+        </a>
+        {%- endif -%} 
+        </div>
       {%- endif -%} 
     {%- endfor -%}
 </div>
@@ -91,7 +98,7 @@ layout: default
   {% assign firstpubl = true %}
   <div class="flex-container__publications">
     <div class="col3">
-      <h3 class="baseline-correction">Publications<br />(<a href="{{site.baseurl}}/publications">Full List</a>)</h3>
+      <h3 class="baseline-correction">Publications<br /><a href="{{site.baseurl}}/publications">Full List <i class="fa fa-arrow-right"></i></a></h3>
     </div>
     {%- for publ in site.publications reversed -%}
       {% if publ.important %}
