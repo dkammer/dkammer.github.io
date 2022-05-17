@@ -52,6 +52,7 @@ exclude:
     - vendor/gems/
     - vendor/ruby/
     - .gitignore
+    - .git
     - docker-compose.yml
     - LICENSE
     - README.md
