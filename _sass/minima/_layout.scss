@@ -47,10 +47,20 @@
   background-color: #29abe2;
   color: #fff;
   padding: $spacing-inner-padding;
+  margin-bottom: $spacing-subunit;
+  
+  &__inactive {
+    background-color: #aaa;
+    padding: $spacing-inner-padding;
+  }
 }
 
 .affildescription {
   height: 120px; 
+}
+
+.affillinktext {
+  height: 63px;
 }
 
 .line-space {

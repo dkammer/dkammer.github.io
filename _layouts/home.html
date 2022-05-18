@@ -30,9 +30,10 @@ layout: default
     <div class="col3">
       <h3 class="baseline-correction">Affiliations</h3>
     </div>
+    {% assign counter=0 %}
     {%- for affil in site.affiliations reversed -%}
-      {%- if affil.status=="active" -%}
-      <div class="col3-padding left-padding affiliation">
+      {%- if affil.status=="active" or affil.status=="inactive" -%}
+      <div class="col3-padding {% if counter < 3 %}left-padding{% else %}offset3{% endif %} affiliation{% unless affil.status=="active" %}__inactive{% endunless %}">
         <div>
           {%- if affil.link -%}
           <a class="affillink" href="{{ affil.link }}">
@@ -41,15 +42,16 @@ layout: default
             {{ affil.description }}
           </p>
             {%- if affil.link -%}
-            <p class="small uppercase"><b><i class="fas fa-link"></i> {{ affil.title | escape }}</b></p>
+            <p class="small uppercase affillinktext"><b><i class="fas fa-link"></i> {{ affil.title | escape }}</b></p>
             {%- else -%}
-            <p class="small uppercase "><b>{{ affil.title | escape }}</b></p>
+            <p class="small uppercase affillinktext "><b>{{ affil.title | escape }}</b></p>
             {%- endif -%}
         </div>
         {%- if affil.link -%}
         </a>
         {%- endif -%} 
         </div>
+        {% assign counter = counter | plus: 1 %}
       {%- endif -%} 
     {%- endfor -%}
 </div>

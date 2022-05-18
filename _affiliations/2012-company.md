@@ -2,5 +2,5 @@
 title: Gesellschaft für Technische Visualistik mbH
 link: https://visualistik.de
 status: active
-description: Co-founder and shareholder of the company
+description: Co-founder and shareholder of the company since 2012
 ---

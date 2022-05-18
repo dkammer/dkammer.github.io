@@ -125,10 +125,13 @@
     background-color: #29abe2;
     color: #fff;
     padding: $spacing-inner-padding;
-    margin-bottom: $spacing-subunit;
   }
   
   .affildescription {
+    height: auto;
+  }
+
+  .affillinktext {
     height: auto;
   }
 }
