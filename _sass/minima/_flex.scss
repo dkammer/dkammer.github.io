@@ -58,7 +58,7 @@
     margin-bottom: $vertical-space;
 }
 
-@include media-query($on-tablet) {
+@include media-query-print($on-tablet) {
     body {
         @include relative-font-size(0.8);
     }

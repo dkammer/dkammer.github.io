@@ -48,6 +48,12 @@ $on-laptop:        800px !default;
   }
 }
 
+@mixin media-query-print($device) {
+  @media print, screen and (max-width: $device) {
+    @content;
+  }
+}
+
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
 }
