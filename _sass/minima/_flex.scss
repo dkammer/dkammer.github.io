@@ -62,6 +62,12 @@
     body {
         @include relative-font-size(0.8);
     }
+    .site-header {
+        .wrapper {
+          padding-top: $spacing-unit;
+          padding-bottom: $spacing-subunit;
+        }
+      }
     h1 {
         @include relative-font-size-title(0.8);
     }

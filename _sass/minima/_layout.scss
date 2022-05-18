@@ -16,6 +16,7 @@
 
 .iconbar {
   font-size: $base-font-size * 2.5;
+  line-height: $base-font-size * 3;
   letter-spacing: -2px;
   padding-top: $spacing-subunit;
   a {
@@ -63,7 +64,7 @@
 .icon-png {
   height: 39px;
   vertical-align: top;
-  margin-top: 13px;
+  margin-top: 5px;
 }
 
 .site-nav {
