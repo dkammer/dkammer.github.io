@@ -5,6 +5,7 @@ link: https://dl.gi.de/handle/20.500.12116/3202
 year: 2017
 venue: Mensch und Computer 2017 - Workshopband
 type: workshop
+tags: elasticdisplays
 bibtex: >-
     @inproceedings{mci/Kammer2017,
     author = {Kammer, Dietrich AND Keck, Mandy AND Müller, Mathias AND Gründer, Thomas AND Groh, Rainer},

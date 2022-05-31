@@ -63,11 +63,18 @@ layout: default
     {%- for project in site.projects reversed -%}
     <div class="flex-container">
       {% if forloop.first == true %}
-      <div class="col7 left-padding">
-        {% else %}
+        <div class="col7 left-padding">
+      {% else %}
         <div class="col7 offset3">
-        {% endif %}
-        <p><b>{{ project.title | escape }}</b></p>
+      {% endif %}
+        {% assign content = project.content | strip_newlines %}
+        <p>
+          <b>
+            {% unless content == "" %}<a href="{{ project.url | prepend: project.baseurl }}">{% endunless %}
+              {{ project.title | escape }}
+            {% unless content == "" %}</a>{% endunless %}
+          </b>
+        </p>
         <p class="line-space">{{ project.funding }}</p>
       </div>
       <div class="col2 left-padding">

@@ -5,6 +5,7 @@ link: https://dx.doi.org/10.18420/muc2018-demo-0497
 year: 2018
 venue: Mensch und Computer 2018 - Workshopband
 type: workshop
+tags: elasticdisplays
 bibtex: >-
     @inproceedings{mci/Kammer2018,
     author = {Kammer, Dietrich AND Keck, Mandy AND Gründer, Thomas},

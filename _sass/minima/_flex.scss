@@ -1,5 +1,5 @@
 .flex-container {
-/* We first create a flex layout context */
+    /* We first create a flex layout context */
     display: flex;
 
     /* Then we define the flow direction 
@@ -20,6 +20,26 @@
     }
 }
 
+.iframe-container {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    margin-bottom: $base-font-size;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 .flex-item-header {
     padding-top: 4px;
     align-self: flex-end;
@@ -29,9 +49,16 @@
     width: $spacing-subunit * 8 + $spacing-grid * 9;
 }
 
-
 .col7 {
     width: $spacing-subunit * 6 + $spacing-grid * 7;
+}
+
+.col5 {
+    width: $spacing-subunit * 4 + $spacing-grid * 5;
+}
+
+.col4 {
+    width: $spacing-subunit * 3 + $spacing-grid * 4;
 }
 
 .col2 {
@@ -62,76 +89,88 @@
     body {
         @include relative-font-size(0.8);
     }
+
     .site-header {
         .wrapper {
-          padding-top: $spacing-unit;
-          padding-bottom: $spacing-subunit;
+            padding-top: $spacing-unit;
+            padding-bottom: $spacing-subunit;
         }
-      }
+    }
+
     h1 {
         @include relative-font-size-title(0.8);
     }
-    
-    h2, h3 {
+
+    h2,
+    h3 {
         @include relative-font-size-heading(0.8);
     }
-    
+
     .small {
         @include relative-font-size-small(0.8);
-    }    
+    }
+
     .flex-container {
         display: flex;
         flex-flow: column;
     }
-  .col2 {
-    width: auto;
-    order: -1;
+
+    .col2 {
+        width: auto;
+        order: -1;
     }
-  .col3 {
-    width: auto;
-  }
-  .col3-padding {
-      width: auto;
-  }
-  .offset3 {
-      margin-left: 0px;
-  }
-  .col7 {
-      width: auto;
-  }
-  .col9 {
-      width: auto;
-  }
-  .left-padding {
-      margin-left: 0px;
-  } 
-  .rightalign {
-      text-align: left;
-  }
 
-  .bottom-padding   {
-      margin-bottom: $vertical-space / 2;
-  }
+    .col3 {
+        width: auto;
+    }
 
-  .wrapper {
-    padding-bottom: $vertical-space / 2;
-  }
+    .col3-padding {
+        width: auto;
+    }
 
-  .flex-item-header {
-    align-self: flex-start;
-   }
+    .offset3 {
+        margin-left: 0px;
+    }
 
-  .affiliation {
-    background-color: #29abe2;
-    color: #fff;
-    padding: $spacing-inner-padding;
-  }
-  
-  .affildescription {
-    height: auto;
-  }
+    .col7 {
+        width: auto;
+    }
 
-  .affillinktext {
-    height: auto;
-  }
+    .col9 {
+        width: auto;
+    }
+
+    .left-padding {
+        margin-left: 0px;
+    }
+
+    .rightalign {
+        text-align: left;
+    }
+
+    .bottom-padding {
+        margin-bottom: $vertical-space / 2;
+    }
+
+    .wrapper {
+        padding-bottom: $vertical-space / 2;
+    }
+
+    .flex-item-header {
+        align-self: flex-start;
+    }
+
+    .affiliation {
+        background-color: #29abe2;
+        color: #fff;
+        padding: $spacing-inner-padding;
+    }
+
+    .affildescription {
+        height: auto;
+    }
+
+    .affillinktext {
+        height: auto;
+    }
 }

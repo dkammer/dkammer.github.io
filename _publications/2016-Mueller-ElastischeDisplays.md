@@ -5,6 +5,7 @@ link: https://dl.gi.de/handle/20.500.12116/327
 year: 2016
 venue: Mensch und Computer 2016 – Workshopband
 type: workshop
+tags: elasticdisplays
 bibtex: >-
     @inproceedings{mci/Müller2016,
     author = {Müller, Mathias AND Kammer, Dietrich AND Groh, Rainer},

@@ -5,6 +5,7 @@ link: https://designtouch2020.files.wordpress.com/2020/10/mueller_2.pdf
 year: 2020
 venue: Designing Digital Touch&colon; Social and Sensory Aspects and Challenges. Workshop at EuroHaptics 2020, Leiden, Netherlands
 type: workshop
+tags: elasticdisplays
 bibtex: >-
     @misc{designtouchmueller2020, 
     author={M. {Müller} and E. {Stoll} and L. {Büschel} and S. {Gehrke} and F. {Hannss} and D. {Kammer}}, 

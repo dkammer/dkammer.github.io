@@ -36,10 +36,15 @@ plugins:
   - jekyll-feed
 
 collections:
-  - publications
-  - affiliations
-  - awards
-  - projects
+  publications:
+    output: false
+  affiliations:
+    output: false
+  awards:
+    output: false
+  projects:
+    output: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

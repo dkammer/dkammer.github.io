@@ -5,6 +5,7 @@ link: https://tei.acm.org/2014/program/407.php
 year: 2014
 venue: Work in progress poster presented at the 8th International Conference on Tangible, Embedded and Embodied Interaction
 type: conference
+tags: elasticdisplays
 bibtex: >-
     @conference{kammer2014gestureselastic,
     title = {Investigating Gestures on Elastic Tabletops},

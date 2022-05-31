@@ -5,6 +5,7 @@ link: https://doi.org/10.1515/icom-2018-0021
 year: 2018
 venue: i-com, 17(3), pp. 247-255
 type: journal
+tags: elasticdisplays
 bibtex: >-
     @article{aufsatz81038,
     affiliation = {Professur für Mediengestaltung},

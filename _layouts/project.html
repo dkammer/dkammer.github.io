@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="home flex-container">
+    {%- if page.title -%}
+    <div class="col-12 line-space">
+        <h3>{{ page.title }}</h3>
+        <a href="{{ site.url }}"><i class="fa fa-arrow-left"></i> Back</a>
+    </div>
+    {%- endif -%}
+
+    {{ page.content }}
+</div>

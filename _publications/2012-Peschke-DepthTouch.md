@@ -5,6 +5,7 @@ link: https://doi.org/10.1145/2254556.2254706
 year: 2012
 venue: Proceedings of the International Working Conference on Advanced Visual Interfaces
 type: conference
+tags: elasticdisplays
 bibtex: >-
     @inproceedings{Peschke:2012:DES:2254556.2254706,
     author = {Peschke, Joshua and G\"{o}bel, Fabian and Gr\"{u}nder, Thomas and Keck, Mandy and Kammer, Dietrich and Groh, Rainer},

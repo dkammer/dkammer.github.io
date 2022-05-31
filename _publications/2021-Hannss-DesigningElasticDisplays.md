@@ -5,6 +5,7 @@ link: https://dl.gi.de/handle/20.500.12116/37359
 year: 2021
 venue: Mensch und Computer 2021 - Workshopband. Bonn&colon; Gesellschaft für Informatik e.V.
 type: workshop
+tags: elasticdisplays
 bibtex: >-
     @inproceedings{mci/Hannß2021,
     author = {Hannß, Franziska AND Müller, Mathias AND Kammer, Dietrich},
