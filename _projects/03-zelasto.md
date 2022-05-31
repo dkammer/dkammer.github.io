@@ -50,33 +50,33 @@ funding: Free State of Saxony, European Regional Development Fund
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
     </div>
-    <div>
+    <div class="line-space">
         <p class="small">
         Kammer, D., Keck, M., Müller, M., Gründer, T. & Groh, R.: Exploring Big Data Landscapes with Elastic
         Displays. 10. Workshop "Be-greifbare Interaktion", Mensch und Computer 2017.
     </p>
     </div>
 </div>
-<div class="col3-padding">
+<div class="col3 left-padding">
     <div class="iframe-container">
         <iframe src="https://www.youtube.com/embed/QWnh8-_k3pQ" title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
     </div>
-    <div>
+    <div class="line-space">
     <p class="small">
         Müller, M, Keck, M, Gründer, T. Hube, N. & Groh, R.: A Zoomable Product Browser for Elastic Displays, xCoAx
         2017.
     </p>    
     </div>
 </div>
-<div class="col3-padding">
+<div class="col3 left-padding">
     <div class="iframe-container">
         <iframe src="https://www.youtube.com/embed/5m3uHXCfaAg" title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
     </div>
-    <div>
+    <div class="line-space">
         <p class="small">
         Müller, M., Gründer, T., Groh, R.: Data Exploration on Elastic Displays using Physical Metaphors. xCoAx
         2015.
