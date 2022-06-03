@@ -6,7 +6,6 @@ layout: default
     {%- if page.title -%}
     <div class="col-12 line-space">
         <h3>{{ page.title }}</h3>
-        <a href="{{ site.url }}"><i class="fa fa-arrow-left"></i> Back</a>
     </div>
     {%- endif -%}
 
@@ -14,9 +13,34 @@ layout: default
         <img src="{{site.baseurl}}/assets/images/{{ page.image }}">
     </div>
     
-    <div class="offset3 col9 line-space">
+    <div class="col3">
+        <a href="{{ site.url }}"><i class="fa fa-arrow-left"></i> Back</a>
+    </div>
+    <div class="col9 line-space {% unless page.logo %}bottom-padding{% endunless %}">
         {{ page.description }}
     </div>
+    {%- if page.logo -%}
+    <div class="offset3 col4 bottom-padding">
+        <img src="{{site.baseurl}}/assets/images/{{ page.logo }}">
+    </div>
+    <div class="col8"></div>
+    {%- endif -%}
 
     {{ page.content }}
+
+    <div class="offset3 col9">
+        <h3>Related Publications</h3>
+    </div>
+    
+    <div class="offset3 col9">
+        {%- assign sorted = site.publications | reverse -%}
+        {%- for publ in sorted -%}
+        {% if publ.tags contains page.tag %}
+        <p class="small line-space dont-break-out">
+            {{ publ.author }} ({{ publ.year }}). <a href="{{publ.link}}">{{ publ.title }}</a>. In: {{ publ.venue }}. {{
+            publ.link }}
+        </p>
+        {% endif %}
+        {%- endfor -%}
+    </div>
 </div>

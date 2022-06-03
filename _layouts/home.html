@@ -67,7 +67,7 @@ layout: default
       {% else %}
         <div class="col7 offset3">
       {% endif %}
-        {% assign content = project.content | strip_newlines %}
+        {% assign content = project.description | strip_newlines %}
         <p>
           <b>
             {% unless content == "" %}<a href="{{ project.url | prepend: project.baseurl }}">{% endunless %}

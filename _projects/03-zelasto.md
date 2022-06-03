@@ -7,6 +7,8 @@ status: active
 time: 10/2019–06/2022
 funding: Free State of Saxony, European Regional Development Fund
 image: ZELASTO-Project-Small.jpg
+logo: EFRE_EU_quer_2015_cmyk_engl.png
+tag: elasticdisplays
 description: >-
     Elastic displays empower users to interact naturally through pushing and pulling, folding and twisting. While
     this kind of interaction is not as precise as on other devices, it utilizes interaction metaphors which are easy
@@ -14,26 +16,6 @@ description: >-
     Design at Technische Universität Dresden. This research project investigates application scenarios involving complex
     data based on zoomable user interfaces.
 ---
-<div class="offset3 col4 bottom-padding">
-    <img src="{{site.baseurl}}/assets/images/EFRE_EU_quer_2015_cmyk_engl.png">
-</div>
-
-<div class="offset3 col9">
-    <h3>Related Publications</h3>
-</div>
-
-<div class="offset3 col9 bottom-padding">
-    {%- assign sorted = site.publications | reverse -%}
-    {%- for publ in sorted -%}
-    {% if publ.tags contains "elasticdisplays" %}
-    <p class="small line-space dont-break-out">
-        {{ publ.author }} ({{ publ.year }}). <a href="{{publ.link}}">{{ publ.title }}</a>. In: {{ publ.venue }}. {{
-        publ.link }}
-    </p>
-    {% endif %}
-    {%- endfor -%}
-</div>
-
 <div class="offset3 col9">
     <h3>Videos</h3>
 </div>
@@ -64,7 +46,7 @@ description: >-
     </p>    
     </div>
 </div>
-<div class="col3 left-padding">
+<div class="col3 left-padding bottom-padding">
     <div class="iframe-container">
         <iframe src="https://www.youtube.com/embed/5m3uHXCfaAg" title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
