@@ -1,6 +1,7 @@
 ---
 layout: project
 title: ZELASTO – Interaktion mit komplexen Daten mittels Zoomable User Interfaces auf Elastischen Oberflächen
+slug: zelasto
 link: na
 status: active
 time: 10/2019–06/2022
