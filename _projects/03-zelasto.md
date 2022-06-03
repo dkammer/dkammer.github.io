@@ -6,21 +6,14 @@ link: na
 status: active
 time: 10/2019–06/2022
 funding: Free State of Saxony, European Regional Development Fund
----
-<div class="bottom-padding">
-    <img src="{{site.baseurl}}/assets/images/ZELASTO-Project-Small.jpg">
-</div>
-
-<div class="offset3 col9 line-space">
+image: ZELASTO-Project-Small.jpg
+description: >-
     Elastic displays empower users to interact naturally through pushing and pulling, folding and twisting. While
     this kind of interaction is not as precise as on other devices, it utilizes interaction metaphors which are easy
     to learn and understand. I have been involved in developing elastic displays since 2012 at the Chair of Media
-    Design
-    at Technische Universität Dresden. This research project investigates application scenarios involving complex
-    data
-    based on zoomable user interfaces.
-</div>
-
+    Design at Technische Universität Dresden. This research project investigates application scenarios involving complex
+    data based on zoomable user interfaces.
+---
 <div class="offset3 col4 bottom-padding">
     <img src="{{site.baseurl}}/assets/images/EFRE_EU_quer_2015_cmyk_engl.png">
 </div>
