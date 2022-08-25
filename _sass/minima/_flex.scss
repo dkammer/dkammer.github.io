@@ -18,6 +18,12 @@
         flex-flow: row wrap;
         justify-content: flex-start;
     }
+
+    &__affiliations {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+    }
 }
 
 .iframe-container {
@@ -117,6 +123,12 @@
     .flex-container {
         display: flex;
         flex-flow: column;
+
+        &__affiliations {
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+        }
     }
 
     .col2 {
