@@ -5,6 +5,7 @@ link: https://arxiv.org/abs/2009.08761
 year: 2020
 venue: Workshop on Visual Interface Design Methods (VIDEM 2020), held in conjunction with the International Conference on Advanced Visual Interfaces (AVI 2020). Ischia, Italy
 type: workshop
+tags: elasticdisplays
 bibtex: >-
     @misc{stoll2020online,
     title={Online Knowledge Base for Designing Shape-changing Interfaces using Modular Workshop Elements},
