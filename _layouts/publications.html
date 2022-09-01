@@ -2,10 +2,113 @@
 layout: default
 ---
 
+<script src="../assets/d3.min.js"></script>
+
 {%- assign sorted = site.publications | reverse -%}
 {%- assign current_year = sorted[0].year -%}
 {% assign firstpubl = true %}
 <div class="flex-container__publications">
+  
+  <div class="col7 offset3">
+    <div class="barchart line-space"></div>
+  </div>
+
+  <script>
+    // assemble data from Jekyll collection
+    var data = [
+      {% assign first_year = site.publications[0].year %}
+      {% assign pub_count = 0 %}
+      {%- for publ in site.publications -%}
+        {% if publ.year != first_year %}
+          {year: {{ first_year }}, count: {{ pub_count }}},
+          {% assign first_year = publ.year %}
+          {% assign pub_count = 0 %}
+        {% endif %}
+        {% assign pub_count = pub_count | plus: 1 %}
+      {%- endfor -%}
+      {year: {{ first_year }}, count: {{ pub_count }}}
+    ];
+
+    var width=530, height=250;
+    var svg = d3.select('.barchart')
+      .append('svg')
+        .attr('width', width)
+        .attr('height', height + 20);
+
+    var xScale = d3.scaleBand().range ([0, width]).padding(0.4),
+        yScale = d3.scaleLinear().range ([height, 0]);
+
+    var g = svg.append("g")
+               .attr("transform", "translate(15," + -10 + ")");
+
+    xScale.domain(data.map(function(d) { return d.year; }));
+    yScale.domain([0, d3.max(data, function(d) { return d.count; })]);
+
+    var color = d3.scaleSequential()
+      .domain([0, d3.max(data, d => d.count)])
+      .interpolator(d3.interpolateBlues);
+
+    var xAxis = d3.axisBottom(xScale)
+      .tickPadding(10)
+      .tickSize(0);;
+    var yAxis = d3.axisLeft(yScale)
+      .tickSize(-1 * width);
+
+    g.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+
+    g.append("g")
+      .call(yAxis)
+      .append("text")
+      .attr("y", 6)
+      .attr("dy", "0.71em")
+      .attr("text-anchor", "end")
+      .text("count");
+
+    g.selectAll(".bar")
+        .data(data)
+        .enter().append("rect")
+        .attr("class", "bar")
+        .on("mouseover", onMouseOver) 
+        .on("mouseout", onMouseOut)   
+        .attr("x", d => xScale(d.year))
+        .attr("y", d => yScale(0))
+        .attr("width", d => xScale.bandwidth() - 3)
+        .attr("height", d => height - yScale(0));
+
+    g.selectAll("rect")
+      .transition()
+      .duration(800)
+      .attr("y", function(d) { return yScale(d.count); })
+      .attr("height", function(d) { return height - yScale(d.count); })
+      .delay(function(d,i){ return(i*100); })
+
+    function onMouseOver(d, i) {
+      d3.select(this).attr('class', 'highlight');
+
+      g.append("text")
+        .attr('class', 'val') 
+        .attr('x', d => xScale(i.year))
+        .attr('y', d => yScale(i.count) - 10)
+        .text(d => i.count);
+    }
+
+    function onMouseOut(d, i) {
+      d3.select(this).attr('class', 'bar');
+      d3.select(this)
+        .transition()     
+        .duration(400)
+        .attr('width', xScale.bandwidth() - 3)
+        .attr("y",d => yScale(i.count))
+        .attr("height", d => height - yScale(i.count));
+
+      d3.selectAll('.val')
+        .remove();
+    }
+
+  </script>
+
   <div class="col3">
     <h3 class="baseline-correction">
       Publications<br />

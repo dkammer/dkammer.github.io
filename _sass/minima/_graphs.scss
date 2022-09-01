@@ -1,0 +1,20 @@
+.bar {
+    fill: $brand-color;
+}
+
+.barchart path {
+	display: none;
+}
+
+.barchart line {
+    stroke-width: 1;
+	stroke-dasharray: 1 2;
+}
+
+.val {
+    color: black;
+}
+
+.highlight {
+    fill: $grey-color-dark;
+}
