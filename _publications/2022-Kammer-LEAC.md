@@ -1,7 +1,7 @@
 ---
 title: LEAC&colon; Learning Analytics Cockpit
 author: Kammer, D., M&uuml;ller, M.
-link: https://tu-dresden.de/codip/ergebnisse-transfer/veranstaltungen/geneme
+link: https://zfe.hszg.de/wel-1
 year: 2022
 venue: Workshop on e-Learning 2022 (to appear)
 type: workshop

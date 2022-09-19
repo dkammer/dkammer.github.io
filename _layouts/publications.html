@@ -33,13 +33,13 @@ layout: default
     var svg = d3.select('.barchart')
       .append('svg')
         .attr('width', width)
-        .attr('height', height + 20);
+        .attr('height', height+20);
 
-    var xScale = d3.scaleBand().range ([0, width]).padding(0.4),
-        yScale = d3.scaleLinear().range ([height, 0]);
+    var xScale = d3.scaleBand().range([0, width]).padding(0.4),
+        yScale = d3.scaleLinear().range([height, 0]);
 
     var g = svg.append("g")
-               .attr("transform", "translate(15," + -10 + ")");
+               .attr("transform", "translate(15,-10)");
 
     xScale.domain(data.map(function(d) { return d.year; }));
     yScale.domain([0, d3.max(data, function(d) { return d.count; })]);
