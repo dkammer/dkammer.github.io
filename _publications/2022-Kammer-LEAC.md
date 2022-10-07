@@ -1,7 +1,7 @@
 ---
 title: LEAC&colon; Learning Analytics Cockpit
 author: Kammer, D., M&uuml;ller, M.
-link: https://zfe.hszg.de/wel-1
+link: https://zfe.hszg.de/fileadmin/NEU/Redaktion-Zfe/Dateien/wel/wel22/Tagungsband_WeL22.pdf
 year: 2022
 venue: 20. Workshop on e-Learning - Tagungsband. 22. September 2022, Hochschule Zittau/Görlitz. Wissenschaftliche Berichte, Heft 137 - 2022, ISBN&colon; 978-3-941521-33-9.
 type: workshop
