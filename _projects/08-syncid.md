@@ -4,7 +4,7 @@ title: SYNC-ID – Synchronisierte Interaktionen über Distanzen
 slug: syncid
 link: na
 status: active
-time: 07/2021–12/2024
+time: 07/2021–06/2024
 funding: Free State of Saxony, Ministry of Science
 image: SYNCID-Project.jpg
 tag: multimodal
