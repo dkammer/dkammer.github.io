@@ -1,6 +1,6 @@
 ---
-title: Labornetzwerk Technische Visualistik
+title: Visual Engineering Network
 link: http://technische-visualistik.de
-status: disabled
-description: local network of companies and research institutions in Saxony.
+status: active
+description: Network of companies and research institutions in Saxony.
 ---
