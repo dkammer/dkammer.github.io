@@ -72,7 +72,7 @@ layout: default
         <p>
           <b>
             {% unless content == "" %}<a href="{{ project.url | prepend: project.baseurl }}">{% endunless %}
-              {{ project.title | escape }}
+              {{ project.title }}
             {% unless content == "" %}</a>{% endunless %}
           </b>
         </p>
