@@ -1,6 +1,6 @@
 ---
 title: Konzepte für die Organisation von Lerninhalten und -zielen für Studierende
-author: M&uuml;ller, Kammer, D.
+author: M&uuml;ller, M., Kammer, D.
 link: http://www.htwk-leipzig.de/wel23
 year: 2023
 venue: Workshop on E-Learning 2023 (to appear)
