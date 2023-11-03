@@ -5,12 +5,25 @@ layout: default
 <div class="home flex-container">
     {%- if page.title -%}
     <div class="col-12 line-space">
+        {%- if page.link and page.link != "na" -%}
+        <a href="{{ page.link }}">
+        {%- endif -%}
         <h3>{{ page.title }}</h3>
+        {%- if page.link and page.link != "na" -%}
+        </a>
+        {%- endif -%}
     </div>
     {%- endif -%}
 
     <div class="bottom-padding">
-        <img src="{{site.baseurl}}/assets/images/{{ page.image }}">
+        {%- if page.link and page.link != "na" -%}
+        <a href="{{ page.link }}">
+        {%- endif -%}
+            <img src="{{site.baseurl}}/assets/images/{{ page.image }}">
+        {%- if page.link and page.link != "na" -%}
+        </a>
+        {%- endif -%}
+        </a>
     </div>
     
     <div class="col3">
@@ -28,12 +41,14 @@ layout: default
 
     {{ page.content }}
 
+    {%- assign filtered = site.publications | where: "tags", page.tag -%}
+    {%- if filtered.size > 0 -%}
     <div class="offset3 col9">
         <h3>Related Publications</h3>
     </div>
     
     <div class="offset3 col9">
-        {%- assign sorted = site.publications | reverse -%}
+        {%- assign sorted = site.publications | reverse -%}    
         {%- for publ in sorted -%}
         {% if publ.tags contains page.tag %}
         <p class="small line-space dont-break-out">
@@ -43,4 +58,5 @@ layout: default
         {% endif %}
         {%- endfor -%}
     </div>
+    {%- endif -%}
 </div>

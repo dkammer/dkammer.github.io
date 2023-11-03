@@ -5,6 +5,7 @@ link: https://doi.org/10.1145/3399715.3400863
 year: 2020
 venue: AVI '20&colon; Proceedings of the International Conference on Advanced Visual Interfaces
 type: conference
+tags: infovis
 bibtex: >-
     @inproceedings{10.1145/3399715.3400863,
     author = {Keck, Mandy and Kammer, Dietrich and Ferreira, Alfredo and Giachetti, Andrea and Groh, Rainer},

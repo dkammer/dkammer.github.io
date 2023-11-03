@@ -5,6 +5,7 @@ link: http://nbn-resolving.de/urn:nbn:de:bsz:14-qucosa-142838
 year: 2010
 venue: Virtual enterprises, Communities & social networks&colon; Workshop GeneMe ’10 Gemeinschaften in neuen Medien
 type: conference
+tags: infovis
 bibtex: >-
     @conference{keck_delviz_2010,
     title = {DelViz -- Untersuchen von Visualisierungsformen durch eine Klassifizierung beruhend auf Social Tagging},

@@ -5,6 +5,7 @@ link: http://ceur-ws.org/Vol-2108/paper3.pdf
 year: 2018
 venue: Proceedings of VisBIA 2018 – Workshop on Visual Interfaces for big Data environments in Industrial applications, International Working Conference on advanced Visual Interfaces
 type: workshop
+tags: infovis
 bibtex: >-
     @conference{aufsatz80645,
     affiliation = {Professur für Mediengestaltung},

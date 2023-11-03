@@ -5,6 +5,7 @@ link: http://ieeevis.org/year/2018/info/posters
 year: 2018
 venue: IEEE VIS 2018 Posters
 type: poster
+tags: infovis
 bibtex: >-
     @inproceedings{keck2018visual,
         title={Visual Version Comparison of Multidimensional Data Sets Using Glyphs},

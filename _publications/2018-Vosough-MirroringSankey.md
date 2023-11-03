@@ -5,6 +5,7 @@ link: https://doi.org/10.5220/0006651203490355
 year: 2018
 venue: Proceedings of the 13th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and applications
 type: conference
+tags: infovis
 bibtex: >-
     @conference{ivapp18,
     author={Zana Vosough. and Dietrich Kammer. and Mandy Keck. and Rainer Groh.},

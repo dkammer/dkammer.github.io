@@ -6,6 +6,7 @@ year: 2021
 venue: IEEE Computer Graphics and Applications
 type: journal
 important: yes
+tags: infovis
 bibtex: >-
     @ARTICLE{9556143,  
         author={Keck, Mandy and Stoll, Elena and Kammer, Dietrich},  

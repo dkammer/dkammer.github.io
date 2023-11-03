@@ -5,6 +5,7 @@ link: http://arxiv.org/abs/2111.04428
 year: 2021
 venue: VisActivities&colon; 2nd IEEE VIS Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing, held in conjunction with IEEE VIS 2021. http://visactivities.github.io/
 type: workshop
+tags: infovis
 bibtex: >-
     @inproceedings{kammer2021experienceteaching,
     author = {Kammer, Dietrich AND Stoll, Elena AND Urban, Adam},

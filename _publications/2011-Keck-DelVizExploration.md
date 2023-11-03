@@ -5,6 +5,7 @@ link: https://www.user.tu-berlin.de/komm/CD/paper/060514.pdf
 year: 2011
 venue: Informatik 2011 - Interaktion und Visualisierung im Daten-Web
 type: workshop
+tags: infovis
 bibtex: >-
     @conference{aufsatz45120,
     affiliation = {Professur für Mediengestaltung},

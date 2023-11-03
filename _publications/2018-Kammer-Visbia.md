@@ -6,6 +6,7 @@ year: 2018
 venue: Proceedings of the 2018 International Working Conference on advanced Visual Interfaces
 type: conference
 important: yes
+tags: infovis
 bibtex: >-
     @inproceedings{Kammer:2018:VWV:3206505.3206603,
     author = {Kammer, Dietrich and Keck, Mandy and Both, Andreas and Jacucci, Giulio and Groh, Rainer},

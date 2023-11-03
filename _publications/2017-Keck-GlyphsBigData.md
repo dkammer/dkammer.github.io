@@ -5,6 +5,7 @@ link: https://doi.org/10.1145/3105971.3105979
 year: 2017
 venue: Proceedings of VINCI ’17
 type: conference
+tags: infovis
 bibtex: >-
     @inproceedings{Keck:2017:TGV:3105971.3105979,
     author = {Keck, Mandy and Kammer, Dietrich and Gr\"{u}nder, Thomas and Thom, Thomas and Kleinsteuber, Martin and Maasch, Alexander and Groh, Rainer},

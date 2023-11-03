@@ -5,6 +5,7 @@ link: http://www.iadisportal.org/ijwi/papers/2014121208.pdf
 year: 2014
 venue: IADIS International Journal on WWW/Internet
 type: journal
+tags: infovis
 bibtex: >-
     @article{getInspired_Journal,
     title = {Motive-based Search using a Recommendation-driven Visual Divide and Conquer Approach},

@@ -5,6 +5,7 @@ link: https://t1p.de/ndv8
 year: 2011
 venue: Wieder mehr sehen! - Aktuelle Einblicke in die Technische Visualistik
 type: book
+tags: infovis
 bibtex: >-
     @inbook{aufsatz45123,
     affiliation = {Professur für Mediengestaltung},

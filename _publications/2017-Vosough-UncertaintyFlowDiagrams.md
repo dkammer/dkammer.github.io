@@ -5,6 +5,7 @@ link: https://doi.org/10.1145/3105971.3105972
 year: 2017
 venue: Proceedings of VINCI ’17
 type: conference
+tags: infovis
 bibtex: >-
     @inproceedings{Vosough:2017:VUF:3105971.3105972,
     author = {Vosough, Zana and Kammer, Dietrich and Keck, Mandy and Groh, Rainer},

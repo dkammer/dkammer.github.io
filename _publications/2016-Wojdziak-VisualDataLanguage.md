@@ -5,6 +5,7 @@ link: https://doi.org/10.1007/978-3-319-40349-6_20
 year: 2016
 venue: Human Interface and the Management of Information&colon; Information, Design and Interaction
 type: conference
+tags: infovis
 bibtex: >-
     @InProceedings{10.1007/978-3-319-40349-6_20,
     author="Wojdziak, Jan
