@@ -1,6 +1,6 @@
 ---
 title: Proceedings of the 25th Bilateral Student Workshop CTU Prague and HTW Dresden - User Interfaces & Visualization
-author: Kammer, D., Wacker, M. Slavík, P., Míkovec, Z.
+author: Kammer, D., Wacker, M. Slavík, P., Míkovec, Z. (eds).
 link: https://nbn-resolving.de/urn:nbn:de:bsz:520-qucosa2-909971
 year: 2023
 venue: Qucosa, Staats- und Universitätsbibliothek Dresden (SLUB)
