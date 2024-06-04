@@ -3,7 +3,7 @@ title: AVISAR – Adaptive Visual Assistance System using Spatial Augmented Real
 author: Stoll, E., Reiher, J., Gavali, K. J., Kammer, D.
 link: https://sites.google.com/view/realxr
 year: 2024
-venue: RealXR&colon; Prototyping and Developing Real-World Applications for Extended Reality, June 4, 2024, Arenzano (Genoa), Italy (to appear)
+venue: RealXR&colon; Prototyping and Developing Real-World Applications for Extended Reality, June 4, 2024, Arenzano (Genoa), Italy
 type: conference
 tags: mixedreality
 bibtex: >-
