@@ -5,7 +5,6 @@ link: https://doi.org/10.1145/3206505.3206603
 year: 2018
 venue: Proceedings of the 2018 International Working Conference on advanced Visual Interfaces
 type: conference
-important: yes
 tags: infovis
 bibtex: >-
     @inproceedings{Kammer:2018:VWV:3206505.3206603,
