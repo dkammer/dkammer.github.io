@@ -3,7 +3,7 @@ layout: project
 title: ZELASTO – Interaktion mit komplexen Daten mittels Zoomable User Interfaces auf Elastischen Oberflächen
 slug: zelasto
 link: na
-status: active
+status: finished
 time: 10/2019–06/2022
 funding: Free State of Saxony, European Regional Development Fund
 image: ZELASTO-Project-Small.jpg

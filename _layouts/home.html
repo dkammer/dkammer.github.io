@@ -59,9 +59,12 @@ layout: default
   
   <div class="flex-container bottom-padding">
     <div class="col3">
-      <h3 class="baseline-correction">Research Grants</h3>
+      <h3 class="baseline-correction">Research Grants<br /><a href="{{site.baseurl}}/projects">Full List <i class="fa fa-arrow-right"></i></a></h3>
     </div>
-    {%- for project in site.projects reversed -%}
+    {% capture projects_back_link %}{{ site.url }}{% endcapture %}
+    
+    {% assign active_projects = site.projects | reverse %}
+    {%- for project in active_projects limit:5 -%}
     <div class="flex-container">
       {% if forloop.first == true %}
         <div class="col7 left-padding">

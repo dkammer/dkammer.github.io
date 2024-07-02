@@ -3,7 +3,7 @@ layout: project
 title: MIR – Mobile Raumatmosphären
 slug: mir
 link: na
-status: active
+status: finished
 time: 03/2022–12/2022
 funding: Free State of Saxony, Ministry of Science
 image: MIR-Panoramen_Projektion.jpg

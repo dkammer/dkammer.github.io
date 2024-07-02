@@ -19,6 +19,12 @@
         justify-content: flex-start;
     }
 
+    &__projects {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+    }
+
     &__affiliations {
         display: flex;
         flex-flow: row wrap;

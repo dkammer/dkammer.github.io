@@ -3,7 +3,7 @@ layout: project
 title: HUBBLE – HUman Behaviour-Based explainable machine LEarning 
 slug: hubble
 link: na
-status: inactive
+status: finished
 time: 12/2019–02/2022
 funding: German Federal Ministry for Economics and Climate Action
 image: HUBBLE-Project-Board.png

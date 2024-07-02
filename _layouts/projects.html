@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="flex-container__projects">
+    <div class="col3">
+      <h3 class="baseline-correction">Research Grants<br /><a href="{{ site.url }}"><i class="fa fa-arrow-left"></i> Back</a></h3>
+    </div>
+    {%- for project in site.projects reversed -%}
+    <div class="flex-container">
+      {% if forloop.first == true %}
+        <div class="col7 left-padding">
+      {% else %}
+        <div class="col7 offset3">
+      {% endif %}
+        {% assign content = project.description | strip_newlines %}
+        <p>
+          <b>
+            {% unless content == "" %}<a href="{{ project.url | prepend: project.baseurl }}">{% endunless %}
+              {{ project.title }}
+            {% unless content == "" %}</a>{% endunless %}
+          </b>
+        </p>
+        <p class="line-space">{{ project.funding }}</p>
+      </div>
+      <div class="col2 left-padding">
+        <p class="small years"><b>{{ project.time }}</b></p>
+      </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
