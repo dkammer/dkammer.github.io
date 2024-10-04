@@ -4,7 +4,7 @@ title: ProMenTaT – Produktionssysteme mit Mensch und Technik als Team
 slug: promentat
 link: na
 status: active
-time: 01/2023–12/2024
+time: 01/2023–12/2025
 funding: Free State of Saxony, European Social Fund
 image: PROMENTAT-Project.jpg
 logo: EFRE-ESF_LO_Kombination_EU-Logo_FreistaatSachsen_V_ENG_RGB.png
