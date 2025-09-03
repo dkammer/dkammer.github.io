@@ -3,7 +3,7 @@ title: From Text to Immersion&colon; A Modular Software Pipeline to Generate Aud
 author: Orawetz, J., Kammer, D., Freitag, G.
 link: https://doi.org/10.1145/3743049.3748579
 year: 2025
-venue: MuC '25&colon; Proceedings of the 2025 Mensch und Computer 2025
+venue: Proceedings of the Mensch und Computer 2025 (MuC '25). Association for Computing Machinery, New York, NY, USA, 610–616.
 type: conference
 tags: multimodal
 bibtex: >-
