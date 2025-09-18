@@ -32,7 +32,7 @@ layout: default
     var width=530, height=250;
     var svg = d3.select('.barchart')
       .append('svg')
-        .attr('width', width)
+        .attr('width', width+10)
         .attr('height', height+20);
 
     var xScale = d3.scaleBand().range([0, width]).padding(0.4),
@@ -42,7 +42,7 @@ layout: default
                .attr("transform", "translate(15,-10)");
 
     xScale.domain(data.map(function(d) { return d.year; }));
-    yScale.domain([0, d3.max(data, function(d) { return d.count; })]);
+    yScale.domain([0, d3.max(data, function(d) { return d.count; }) + 1]);
 
     var color = d3.scaleSequential()
       .domain([0, d3.max(data, d => d.count)])
@@ -89,8 +89,10 @@ layout: default
 
       g.append("text")
         .attr('class', 'val') 
-        .attr('x', d => xScale(i.year))
-        .attr('y', d => yScale(i.count) - 10)
+        .style('fill', 'white')
+        .attr("text-anchor", "middle")
+        .attr('x', d => xScale(i.year) + 8)
+        .attr('y', d => yScale(i.count) + 12)
         .text(d => i.count);
     }
 
