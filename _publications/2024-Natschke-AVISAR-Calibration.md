@@ -8,7 +8,7 @@ type: workshop
 tags: mixedreality
 bibtex: >-
     @inproceedings{natschke_avisar_2024,
-        title = {Display and Gesture Calibration for Adaptive Spatial Augmented Reality in Smart Factories, pp. 16–22},
+        title = {Display and Gesture Calibration for Adaptive Spatial Augmented Reality in Smart Factories},
         url = {https://nbn-resolving.org/urn:nbn:de:bsz:520-qucosa2-967779},
         booktitle = {Proceedings of the 27th Bilateral Student Workshop HTW Dresden and CTU Prague – User Interfaces \& Visualization},
         author = {Natschke, Selina and Kammer, Dietrich},
