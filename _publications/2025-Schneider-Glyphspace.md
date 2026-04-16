@@ -1,7 +1,7 @@
 ---
 title: Visualization of High-dimensional Data using Dimensionality Reduction and Glyphs in a Zoomable User Interface
 author: Schneider, L., Kammer, D.
-link: https://nbn-resolving.de/urn:nbn:de:bsz:520-qucosa2-1036235
+link: https://doi.org/10.69558/2026007
 year: 2025
 venue: Proceedings of the 28th Bilateral Student Workshop HTW Dresden and CTU Prague – User Interfaces & Visualization, pp. 18–23
 type: workshop
@@ -9,7 +9,7 @@ tags: infovis
 bibtex: >-
     @inproceedings{schneider-high-dimensional_2025,
         title = {Visualization of High-dimensional Data using Dimensionality Reduction and Glyphs in a Zoomable User Interface},
-        url = {https://nbn-resolving.de/urn:nbn:de:bsz:520-qucosa2-1036235},
+        url = {https://doi.org/10.69558/2026007},
         booktitle = {Proceedings of the 28th Bilateral Student Workshop HTW Dresden and CTU Prague – User Interfaces \& Visualization},
         author = {Schneider, Lilia and Kammer, Dietrich},
         year = {2025},

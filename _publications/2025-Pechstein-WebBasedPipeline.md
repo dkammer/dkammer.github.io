@@ -1,7 +1,7 @@
 ---
 title: Web-based Pipeline Administration and Docker Remote Control for Extracting Open Access Journal Metadata
 author: Pechstein, G., Müller, M., Kammer, D.
-link: https://nbn-resolving.de/urn:nbn:de:bsz:520-qucosa2-1036235
+link: https://doi.org/10.69558/2026007
 year: 2025
 venue: Proceedings of the 28th Bilateral Student Workshop HTW Dresden and CTU Prague – User Interfaces & Visualization, pp. 31–39
 type: workshop
@@ -9,7 +9,7 @@ tags: infovis
 bibtex: >-
     @inproceedings{pechstein_remote_control2025,
         title = {Web-based Pipeline Administration and Docker Remote Control for Extracting Open Access Journal Metadata},
-        url = {https://nbn-resolving.de/urn:nbn:de:bsz:520-qucosa2-1036235},
+        url = {https://doi.org/10.69558/2026007},
         booktitle = {Proceedings of the 28th Bilateral Student Workshop HTW Dresden and CTU Prague – User Interfaces \& Visualization},
         author = {Pechstein, Gabriel and Müller, Mathias and Kammer, Dietrich},
         year = {2025},

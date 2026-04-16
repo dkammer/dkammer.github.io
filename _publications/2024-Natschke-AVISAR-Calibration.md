@@ -1,7 +1,7 @@
 ---
 title: Display and Gesture Calibration for Adaptive Spatial Augmented Reality in Smart Factories
 author: Natschke, S., Kammer, D.
-link: https://nbn-resolving.org/urn:nbn:de:bsz:520-qucosa2-967779
+link: https://doi.org/10.69558/2025001
 year: 2024
 venue: Proceedings of the 27th Bilateral Student Workshop HTW Dresden and CTU Prague – User Interfaces & Visualization, pp. 16–22
 type: workshop
@@ -9,7 +9,7 @@ tags: mixedreality
 bibtex: >-
     @inproceedings{natschke_avisar_2024,
         title = {Display and Gesture Calibration for Adaptive Spatial Augmented Reality in Smart Factories},
-        url = {https://nbn-resolving.org/urn:nbn:de:bsz:520-qucosa2-967779},
+        url = {https://doi.org/10.69558/2025001},
         booktitle = {Proceedings of the 27th Bilateral Student Workshop HTW Dresden and CTU Prague – User Interfaces \& Visualization},
         author = {Natschke, Selina and Kammer, Dietrich},
         year = {2024},

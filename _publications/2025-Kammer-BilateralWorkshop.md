@@ -1,7 +1,7 @@
 ---
 title: Proceedings of the 28th Bilateral Student Workshop HTW Dresden and CTU Prague – User Interfaces & Visualization
 author: Kammer, D., Wacker, M., Macík, M., Slavík, P. (eds).
-link: https://nbn-resolving.de/urn:nbn:de:bsz:520-qucosa2-1036235
+link: https://doi.org/10.69558/2026007
 year: 2025
 venue: Qucosa, Staats- und Universitätsbibliothek Dresden (SLUB)
 type: workshop
