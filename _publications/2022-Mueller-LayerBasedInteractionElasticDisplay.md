@@ -5,7 +5,7 @@ link: https://doi.org/10.1145/3531073.3531101
 year: 2022
 venue: AVI 2022&colon; Proceedings of the 2022 International Conference on Advanced Visual Interfaces
 type: conference
-important: yes
+important: no
 tags: elasticdisplays
 bibtex: >-
     @inproceedings{10.1145/3531073.3531101,

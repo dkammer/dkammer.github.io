@@ -5,7 +5,7 @@ link: https://doi.org/10.4018/IJUPSC.2021070102
 year: 2021
 venue: International Journal of Urban Planning and Smart Cities (IJUPSC)
 type: journal
-important: yes
+important: no
 tags: xai
 bibtex: >-
     @article{urban_little_2021,
