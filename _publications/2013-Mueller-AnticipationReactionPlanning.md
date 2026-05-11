@@ -1,5 +1,5 @@
 ---
-title: Does the anticipation of a partner’s reaction affect action planning? Spatial action-effect compatibility in a joint task. 
+title: Does the anticipation of a partner’s reaction affect action planning? Spatial action-effect compatibility in a joint task
 author: Müller, R., Kammer, D.
 link: http://csjarchive.cogsci.rpi.edu/Proceedings/2013/papers/0878/
 year: 2013

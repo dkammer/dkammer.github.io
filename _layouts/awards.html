@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="flex-container__projects">
+    <div class="col3">
+      <h3 class="baseline-correction">Awards<br /><a href="{{ site.url }}#awards"><i class="fa fa-arrow-left"></i> Back</a></h3>
+    </div>
+    {%- for award in site.awards reversed -%}
+    <div class="flex-container">
+      {% if forloop.first == true %}
+        <div class="col7 left-padding">
+      {% else %}
+        <div class="col7 offset3">
+      {% endif %}
+      {% assign content = award.description | strip_newlines %}
+          <p class="line-space">{{ award.title }} {{ award.description }}</p>
+        </div>
+        <div class="col2 left-padding">
+          <p class="small years"><b>{{ award.year }}</b></p>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>

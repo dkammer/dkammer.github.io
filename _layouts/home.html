@@ -59,7 +59,7 @@ layout: default
   
   <div class="flex-container bottom-padding">
     <div class="col3">
-      <h3 class="baseline-correction">Research Grants<br /><a href="{{site.baseurl}}/projects">Full List <i class="fa fa-arrow-right"></i></a></h3>
+      <h3 class="baseline-correction" id="projects">Research Grants<br /><a href="{{site.baseurl}}/projects">Full List <i class="fa fa-arrow-right"></i></a></h3>
     </div>
     {% capture projects_back_link %}{{ site.url }}{% endcapture %}
     
@@ -90,9 +90,10 @@ layout: default
 
   <div class="flex-container bottom-padding">
     <div class="col3">
-      <h3 class="baseline-correction">Awards</h3>
+      <h3 class="baseline-correction" id="awards">Awards<br /><a href="{{site.baseurl}}/awards">Full List <i class="fa fa-arrow-right"></i></a></h3>
     </div>
-    {%- for award in site.awards reversed -%}
+    {% assign awards = site.awards | reverse %}
+    {%- for award in awards limit:3 -%}
     <div class="flex-container">
     {% if forloop.first == true %}
       <div class="col7 left-padding">
@@ -111,7 +112,7 @@ layout: default
   {% assign firstpubl = true %}
   <div class="flex-container__publications">
     <div class="col3">
-      <h3 class="baseline-correction">Publications<br /><a href="{{site.baseurl}}/publications">Full List <i class="fa fa-arrow-right"></i></a></h3>
+      <h3 class="baseline-correction" id="publications">Publications<br /><a href="{{site.baseurl}}/publications">Full List <i class="fa fa-arrow-right"></i></a></h3>
     </div>
     {%- for publ in site.publications reversed -%}
       {% if publ.important %}
