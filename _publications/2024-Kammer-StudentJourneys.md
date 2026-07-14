@@ -3,7 +3,7 @@ title: Datenerschließung für die Analyse von Student Journeys in Lernmanagemen
 author: Kammer, D., Eißner, E.
 link: https://zfe.hszg.de/fileadmin/NEU/Redaktion-Zfe/Dateien/wel/wel24/Tagungsband_WeL24.pdf
 year: 2024
-venue: 22. Workshop on e-Learning - Tagungsband. 19. September 2024, Hochschule Zittau/Görlitz 
+venue: Längrich, M.; Heidig, S. & Schuster, E. (Hrsg.)&colon; 22. Workshop on e-Learning - Tagungsband. 19. September 2024, Hochschule Zittau/Görlitz. Wissenschaftliche Berichte, Heft 138 - 2024, ISBN&colon; 978-3-941521-36-0.
 type: workshop
 tags: learninganalytics
 bibtex: >-
